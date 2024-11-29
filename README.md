@@ -29,9 +29,9 @@ Stockease requires a MySQL database for data storage. Follow these steps to set 
 - Set up the database schema by importing the provided SQL script. Locate the stockease_schema.sql file in the repository and run the following command in your MySQL terminal: "SOURCE /path/to/stockease_db_schema.sql;"
 - Update database credentials in the application:
   open calldatabase.py in def connect_db change your MySQL username, password, and database name. For example:
-  DB_USER = 'your_username'
-  DB_PASSWORD = 'your_password'
-  DB_HOST = 'localhost'
+  DB_USER = 'your_username', 
+  DB_PASSWORD = 'your_password', 
+  DB_HOST = 'localhost', 
   DB_NAME = 'stockease_db'
   
 Step 5: Run the application
