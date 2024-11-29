@@ -4,22 +4,27 @@
 Stockease is a small grocery stock management application designed to help small grocery stores manage and update their inventory without the need for manual records.
 This application simplifies stock management by replacing traditional paper and book methods with a digital system.
 
+
 **Features**
 Manage grocery stock easily
 Update stock quantities
 View inventory information
 No need for manual entries on paper
 
+
 **Installation**
 Step 1: Clone the repository
 Clone the Stockease repository to your local machine:
 "git clone https://github.com/kolneyney/Stockease.git"
 
+
 Step 2: Navigate to the project directory
 "cd Stockease"
 
+
 Step 3: Install required dependencies
 "pip install -r requirements.txt"
+
 
 Step 4: Set up MySQL database
 Stockease requires a MySQL database for data storage. Follow these steps to set up your MySQL database:
@@ -33,6 +38,7 @@ Stockease requires a MySQL database for data storage. Follow these steps to set 
   DB_PASSWORD = 'your_password', 
   DB_HOST = 'localhost', 
   DB_NAME = 'stockease_db'
+
   
 Step 5: Run the application
   Once the database is set up, you can start the application:
@@ -40,7 +46,7 @@ Step 5: Run the application
 
 Follow the prompts in the interface to manage your grocery stock.
 
-Usage
+**Usage**
 Use the application to add, update, and view your inventory.
 The data is stored in the MySQL database, so all changes are persistent.
 Contributing
